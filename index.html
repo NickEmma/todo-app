@@ -14,7 +14,20 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>Hello world working on a todo app</h1>
+    <section class="container">
+      <header>todo app</header>
+      <div class="inputbox">
+        <input type="text" placeholder="add your new todo" />
+        <button><i class="fas fa-plus"></i></button>
+      </div>
+      <ul class="todolist">
+        <!-- Data comes from local storage -->
+      </ul>
+      <div class="footer">
+        <span>you have <span class="pending"></span> pending tasks</span>
+        <button>clear all</button>
+      </div>
+    </section>
 
     <!-- custom js file  -->
     <script src="js/app.js"></script>
